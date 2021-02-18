@@ -1,0 +1,42 @@
+@import '../../common/variables.scss';
+
+.field {
+  position: relative;
+  color: $white;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 18px;
+
+  &__input {
+    color: $white;
+    padding: 12px 10px 11px;
+    border: none;
+    border-radius: 4px;
+
+    &_dark {
+      background-color: #1E1F27;
+    }
+  }
+
+  &__label {
+    color: $font-color;
+    padding-bottom: 10px;
+    line-height: 1.2;
+    cursor: pointer;
+  }
+
+  &__info {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+
+    &_error {
+      color: $font-red-color;
+    }
+
+    &_message {
+      color: $font-gray-color;
+    }
+  }
+}

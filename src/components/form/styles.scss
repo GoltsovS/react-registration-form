@@ -1,0 +1,45 @@
+@import '../../common//variables.scss';
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: $gray;
+  padding: 40px 40px 0;
+  border-radius: 12px;
+  width: 380px;
+  box-sizing: border-box;
+
+  &__title {
+    color: $font-color;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 40px;
+    text-align: center;
+  }
+
+  &__link {
+    align-self: center;
+  }
+
+  .field {
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin-bottom: 60px;
+    }
+  }
+
+  &:last-child {
+    padding-bottom: 69px;
+  }
+
+  &.form_second {
+    &:last-child {
+      padding-bottom: 31px;
+    }
+
+    .form__button {
+      margin-bottom: 21px;
+    }
+  }
+}
