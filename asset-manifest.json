@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-registration-form/static/css/main.4202b361.chunk.css",
+    "main.js": "/react-registration-form/static/js/main.52179a9c.chunk.js",
+    "main.js.map": "/react-registration-form/static/js/main.52179a9c.chunk.js.map",
+    "runtime-main.js": "/react-registration-form/static/js/runtime-main.1873cd22.js",
+    "runtime-main.js.map": "/react-registration-form/static/js/runtime-main.1873cd22.js.map",
+    "static/css/2.70c372c2.chunk.css": "/react-registration-form/static/css/2.70c372c2.chunk.css",
+    "static/js/2.2e386bd8.chunk.js": "/react-registration-form/static/js/2.2e386bd8.chunk.js",
+    "static/js/2.2e386bd8.chunk.js.map": "/react-registration-form/static/js/2.2e386bd8.chunk.js.map",
+    "static/js/3.cc22dae3.chunk.js": "/react-registration-form/static/js/3.cc22dae3.chunk.js",
+    "static/js/3.cc22dae3.chunk.js.map": "/react-registration-form/static/js/3.cc22dae3.chunk.js.map",
+    "index.html": "/react-registration-form/index.html",
+    "static/css/2.70c372c2.chunk.css.map": "/react-registration-form/static/css/2.70c372c2.chunk.css.map",
+    "static/css/main.4202b361.chunk.css.map": "/react-registration-form/static/css/main.4202b361.chunk.css.map",
+    "static/js/2.2e386bd8.chunk.js.LICENSE.txt": "/react-registration-form/static/js/2.2e386bd8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1873cd22.js",
+    "static/css/2.70c372c2.chunk.css",
+    "static/js/2.2e386bd8.chunk.js",
+    "static/css/main.4202b361.chunk.css",
+    "static/js/main.52179a9c.chunk.js"
+  ]
+}
