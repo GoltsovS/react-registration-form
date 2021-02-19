@@ -51,7 +51,7 @@ const RegistrationForm = () => {
   const isValidStep = (errors, values, fields) => fields
     .every((field) => values[field] !== '' && !errors[field]);
 
-  const validateStep = useCallback((event) => {
+  const validateStep = (event) => {
     const { value, name } = event.target;
     const error = validate[name](value);
     const { [name]: removedError, ...rest } = errors;
@@ -62,7 +62,7 @@ const RegistrationForm = () => {
       const isValid = isValidStep(newErrors, values, currentFields);
       return { ...prev, ...{ [step]: isValid }};
     });
-  }, [stepsValidity, errors]);
+  };
 
   const toggleStep = useCallback(() => setStep(+!step), [step]);
 
